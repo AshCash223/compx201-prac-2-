@@ -1,10 +1,11 @@
 public class Node {
 	String  value = "";
-	Node head;
-	Node next;
+	Node right;
+	Node left;
 
 	public Node(String s){ //constructor
 		value = s;
-		next = null;
+		left = null;
+		right = null;
 	}
 }
